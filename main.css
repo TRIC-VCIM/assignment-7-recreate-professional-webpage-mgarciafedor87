@@ -1,0 +1,704 @@
+/* Basic Styling to prep page*/
+html 
+{
+  height: 100%;
+  padding: 0;
+}
+body
+{
+  min-height: 100%;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin:0;
+  padding: 0;
+}
+#main-container-gd
+{
+  padding-bottom: 9rem;
+}
+header
+{
+  margin: 0;
+}
+ul
+{
+  margin: 0;
+  padding:0; 
+  list-style-type: none;
+}
+a:link 
+{
+  color:#000;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover 
+{
+  color: #CE2A22;
+  text-decoration: none;
+}
+button
+{
+  color: #737373;
+  background-color: #fff;
+  border: 1px #737373 solid;
+  padding: 0.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  font-size: 1.1rem; 
+}
+button:hover
+{
+  background-color: #dad1d1;
+}
+h1
+{
+  margin: 0;
+}
+h2
+{
+  font-weight: 400;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2rem;
+  text-align: left;
+}
+h3
+{
+  font-weight: 400;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 1.8rem;
+  text-align: left;
+}
+h4
+{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+p
+{
+  color: #737373;
+  line-height: 1.5rem;
+  margin: 0;
+  hyphens: none;
+}
+img
+{
+  width: 100%;
+}
+/* top-support-navigation - Styling*/
+#top-support-navigation 
+{
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.7% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  font-weight:500;
+}
+#usd-p
+{
+  flex: 1;
+}
+#shipping-promo-p
+{
+  color: #737373;
+  font-weight:300;
+  border-bottom: 0.5px solid #737373;
+}
+#support-links-ul
+{
+  display: inline;
+  flex: 1;
+  text-align: right;
+}
+#support-links-ul li
+{
+   display: inline;
+   text-align: right;
+}
+#support-links-ul a
+{
+   color: black;
+}
+#support-links-ul a:hover
+{
+  color: #CE2A22;
+}
+/* internal-navigation - Styling*/
+#navigation-container
+{
+  width: 100%;
+  border-top: 0.25px solid #737373;
+  border-bottom: 0.25px solid #737373;
+}
+#internal-site-navigation
+{
+  width: 90%;
+  margin: 0 auto;
+  padding: 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#search-div
+{
+  display: flex;
+  align-items: center;
+}
+#search-div i
+{
+  margin: 0 10px;
+  color: #737373;
+}
+#dwr-logo
+{
+  display: inline-block;
+  height: 50px;
+  width: 85px;
+}
+#internal-navigation-links 
+{
+  display: flex;
+  align-items: center;
+}
+#internal-navigation-links li
+{
+  display: inline;
+  margin: 0 10px;
+}
+#internal-navigation-links a
+{
+  color: black;
+}
+#internal-navigation-links a:hover
+{
+  color: #CE2A22;
+}
+#customer-account-icons
+{
+  display: flex;
+  align-items: center;
+}
+#customer-account-icons li
+{
+  color: #737373;
+  display: inline;
+  margin: 0 10px;
+}
+/* main Grid - Styling */
+#main-container-gd
+{
+  display: grid;
+  grid-template-columns: 5% 1fr 5%;
+}
+/* Grid-Style 1 - Styling */
+.content-1c-center
+{
+  grid-column: 2/3;
+  text-align: center;
+}
+/* the-semiannual-sale-box - Styling */
+#the-semiannual-sale-box
+{
+  padding: 3rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#the-semiannual-sale-box h4
+{
+  font-weight:500;
+  text-transform: uppercase;
+}
+#the-semiannual-sale-box h1
+{
+  padding: 1.5% 0%;
+  font-size: 3.5rem;
+  color: #CE2A22;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.font-regular
+{
+  font-weight:400;
+}
+#the-semiannual-sale-box p
+{
+  padding: 1.5% 32%;
+}
+#the-semiannual-sale-box button
+{
+  margin: 0 40%;
+  text-align: center; 
+}
+/*feature-sofa-image-box - Styling*/
+#feature-sofa-image-box
+{
+  padding: 2rem 0 7rem 0;
+}
+/*save-floor-to-ceiling-red-gallery - Styling*/
+#save-floor-to-ceiling-red-gallery 
+{
+  width: 100%;
+  max-height: 100%;
+  padding: 9rem 0;
+  background-color: #CE2A22;
+  grid-column: 1/4;
+}
+#red-gallery-title
+{
+  width: 90%;
+  margin: 1rem auto;
+  color:white;
+}
+#red-gallery-grid 
+{
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  row-gap: 6rem;
+}
+#save-floor-to-ceiling-red-gallery a
+{
+  display: inline-block;
+  color:white;
+  font-family: 'Frank Ruhl Libre', serif;
+  Font-weight: 200;
+  margin-top: 3%;
+  padding-bottom: 1%;
+  border-bottom: 2px white solid;
+}
+#save-floor-to-ceiling-red-gallery a:hover 
+{
+  color: #e2e2e2;
+  text-decoration: none;
+}
+/* on-sale-double-box - Styling */
+.double-box-grid
+{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  padding: 9rem 0 7rem 0;
+  text-align: left;
+}
+.double-box-button
+{
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end; 
+}
+.double-box-cell
+{
+  color: #737373;
+}
+.double-box-cell a
+{
+  display: inline-block;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 1rem;
+  margin-top: 3%;
+  padding-bottom: 1%;
+  border-bottom: 2px #737373 solid;
+  color: black;
+}
+.double-box-cell a:hover
+{
+  color: #CE2A22;
+}
+.double-box-cell p
+{
+  margin-top: 3%;
+  max-width: 50%;
+  font-size: 0.8rem;
+}
+/* feature-diningroom-image-box - Styling */
+#feature-diningroom-image-box
+{
+  padding: 2rem 0 7rem 0;
+  text-align: left;
+}
+#feature-diningroom-image-box ul
+{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+#feature-diningroom-image-box li
+{
+  font-family: 'Frank Ruhl Libre', serif;
+  display: inline;
+  margin-right: 5rem;
+  padding-bottom: 1%;
+  border-bottom: 2px #737373 solid; 
+}
+#feature-diningroom-image-box a
+{
+   color: black;
+}
+#feature-diningroom-image-box a:hover
+{
+  color: #CE2A22;
+}
+/* discover-more-favorites-grid - Styling */
+#discover-more-favorites-grid
+{
+  grid-column: 2/3;
+}
+#more-favorites-grid
+{
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+  overflow-x: scroll;
+  grid-template-columns: repeat(6, 23%);
+  grid-auto-flow: column;
+  grid-auto-columns: 200px;
+}
+.more-favorites-grid-item
+{
+  padding-bottom: 4rem;
+}
+.more-favorites-features
+{
+  padding: 0 2rem;
+  border-right: 1px #D8D8D8 solid;
+}
+#more-favorites-grid::-webkit-scrollbar 
+{    
+  height: 4px;
+}
+#more-favorites-grid::-webkit-scrollbar-track 
+{
+  background-color: #D8D8D8; 
+  border-radius: 0;
+}
+#more-favorites-grid::-webkit-scrollbar-thumb 
+{
+  border-radius: 0;
+  background-color: black; 
+}
+.more-favorites-features-grid
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 4rem auto;
+  text-align: left;
+  font-family: 'Frank Ruhl Libre', serif;
+  Font-Size: 0.75rem;
+  Font-weight: 600;
+}
+.more-favorites-features-grid p
+{
+  margin-top: 2rem;
+}
+.p-price
+{
+  text-align: right;
+  word-spacing: .7rem;
+}
+.p-colors
+{
+  color: #6D6D6D;
+  Font-weight: 200;
+  font-family: 'Gothic A1', sans-serif;
+}
+.line-through
+{
+  text-decoration: line-through;
+}
+.red
+{
+  color: red;
+}
+/* redesign-your-rooutine-double-box - No Additional Styling */
+/* take-comfort-double-box - Styling */
+#take-comfort-double-box
+{
+  width: 100%;
+  max-height: 100%;
+  padding: 9rem 0;
+  background-color: #2A2512;
+  grid-column: 1/4; 
+}
+.double-box-grid-v2
+{
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  color: #F8F8F8;
+  text-align: left;
+}
+.float-title
+{
+  position: relative;
+  text-align: left;
+}
+.float-title h3
+{
+  float: left;
+  margin-bottom: 5rem;
+}
+.float-title h5
+{
+  float: right;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.take-comfort-shop-now
+{
+  clear:both;
+  width: 50%;
+}
+.take-comfort-shop-now p
+{
+  margin-bottom: 2.5rem;
+  color: #F8F8F8;
+}
+.double-box-button-v2 button
+{
+  color: #F8F8F8;
+  border-color:  #F8F8F8;
+  background-color: #2A2512;
+}
+.double-box-button-v2 button:hover
+{
+  background-color: rgb(78, 70, 37);
+}
+/* finance-your-purchase - Styling */
+#finance-your-purchase-box
+{
+  grid-column: 1/4;
+  margin: 9rem 0;
+  background-color: #242222;
+  padding-bottom: 2em;
+  color: #F8F8F8;
+}
+#finance-your-purchase-box-contents
+{
+  width: 90%;
+  margin: 0 auto;
+}
+#finance-your-purchase-box-contents h3
+{
+  color: #F8F8F8;
+  margin-block-start: 1em;
+  margin-block-end: 0.5em;
+}
+#finance-your-purchase-box-contents p
+{
+  color: #F8F8F8;
+}
+#finance-your-purchase-box-contents a
+{
+  color: #F8F8F8;
+}
+#finance-your-purchase-box-contents a:hover
+{
+  color: rgb(211, 211, 211);
+}
+/* finance-your-purchase - Styling */
+#design-within-reach-box-grid
+{
+  border-top: 1px #D8D8D8 solid;
+  border-bottom: 1px#D8D8D8 solid;
+}
+.design-within-reach-h3
+{
+  float: left;
+  padding-bottom: 25rem;
+  font-size: 4rem;
+}
+.design-within-reach-h3 h3
+{
+  font-size: 3rem;
+  margin-top: 0;
+}
+.design-within-reach-title-2 h5
+{
+  float: right;
+}
+.design-within-reach-title-sanserif
+{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 700;
+}
+.design-within-reach-p 
+{
+  clear: both;
+  padding: 1.5rem 0;
+}
+.design-within-reach-p p
+{
+  color: #737373;
+  padding: 1.5rem 0;
+}
+.double-box-button-v3 button
+{
+  background-color: white;
+  border: 1px #737373 solid;
+  color: black;
+  margin: 1.5rem 0;
+}
+.double-box-button-v3 button:hover
+{
+  background-color: #dad1d1;
+}
+/* footer - Styling */
+#footer
+{
+  text-align: center;
+  background-color: #242222;
+  color: #fff;
+}
+#footer h3
+{
+  margin-top: 0.5rem;
+  text-align: center;
+  padding: 4rem 0 0.5rem 0;
+}
+#hours-of-operation p
+{
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  color:#A8A8A8;
+}
+#contact-business-opperations-navigations
+{
+  display: inline-block;
+  padding: 3rem 0;
+}
+#contact-business-opperations-navigations li
+{
+  display: block;
+  padding: 0.5rem;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+#contact-business-opperations-navigations a
+{
+  color: white;
+}
+#contact-business-opperations-navigations a:hover
+{
+  color:rgb(216, 216, 216);
+}
+#newsletter-section
+{
+  display: float;
+  justify-content: center;
+}
+#newsletter-section h4
+{
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0 0.5rem 0;
+  font-weight: 300;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 1.5rem;
+  border-top: 2px #504E4E solid;
+}
+#newsletter-section p
+{
+  width: 25%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #A8A8A8;
+}
+#email-address-section
+{
+  padding: 0.5rem;
+}
+#email-address-value-field
+{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  border: 1px #A8A8A8 solid;
+  border-radius: 25px;
+}
+#email-address-section p
+{
+  padding: 0.5rem;
+  color:#A8A8A8;
+}
+#email-address-section a
+{
+  color:#A8A8A8;
+  text-decoration: underline;
+}
+#email-address-section a:hover
+{
+  color:rgb(216, 216, 216);
+}
+#support-business-opperations-navigations
+{
+  width: 90%;
+  margin: 1rem auto;
+  border-top: 1px #A8A8A8 solid;
+}
+#support-business-opperations-navigations li
+{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #A8A8A8 solid;
+  padding: 0.75rem 0;
+}
+#support-business-opperations-navigations i
+{
+  color: #fff;
+}
+#support-business-opperations-navigations a
+{
+  color: white;
+}
+#support-business-opperations-navigations a:hover
+{
+  color:rgb(216, 216, 216);
+}
+#list-of-connections-icons
+{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+#list-of-connections-icons li
+{
+  display: inline-block;
+  padding: 1rem;
+}
+#list-of-connections-icons i
+{
+  color: #fff;
+}
+#page-information
+{
+  width: 90%;
+  margin: 1rem auto;
+  padding: 0.25rem;
+}
+#page-information p
+{
+  color: #A8A8A8;
+  font-size: 0.8rem
+}
+#owner-information
+{
+  padding: 1rem;
+}
+#copyright-information
+{
+  padding: 1rem;
+  border-bottom: 1px #A8A8A8 solid;
+}
